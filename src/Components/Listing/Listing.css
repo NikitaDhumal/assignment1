@@ -1,0 +1,12 @@
+.namepointer{
+    cursor: pointer;
+
+}
+.namepointer:hover{
+    font-weight: 600;
+}
+p{
+    color: rgba(59, 57, 57, 0.441);
+    padding-left: 20px;
+    padding-top: 10px;
+}
