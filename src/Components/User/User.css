@@ -18,3 +18,25 @@
     padding: 10px;
 
 }
+.inputfield{
+    padding-block: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+label{
+    margin-right: 10px;
+    width: 150px;
+}
+
+input{
+    padding: 4px;
+}
+.button{
+    background: #230909;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    width: 100px;
+    margin-top: 10px;
+}

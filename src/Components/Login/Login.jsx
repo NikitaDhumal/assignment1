@@ -18,7 +18,7 @@ function Login({ setToken }) {
     });
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     axios
       .get(

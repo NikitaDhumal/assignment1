@@ -15,7 +15,7 @@ console.log(userData);
     
       <div className='mainContainer'>
         <Routes>
-          <Route path="/user" element={<User userData={userData}/>} />
+          <Route path="/user" element={<User userData={userData} token={token}/>} />
           <Route index path="/" element={<Login setToken={setToken}/>} />
           <Route path="/listing" element={<Listing setUserData={setUserData} token={token}/>} />
         </Routes>
